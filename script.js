@@ -9,7 +9,7 @@ let getmovie = () => {
     key = "b8c2fb37";
     let url = `http://www.omdbapi.com/?t=${movieName}&apikey=${key}`;
 
-    if (movieName.length <= 0) {
+    if (movieName.length == 0) {
         result.innerHTML = `<h3 class = "msg">Please Enter a MOvie Name</h3>`;
     }
 
